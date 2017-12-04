@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": {
+      "value": "d"
+    },
+    "organization": {
+      "value": "Blog"
+    },
+    "project": {
+      "value": "kv"
+    },
+    "AADKeyVaultObjectId": {
+      "value": "<see step 4>"
+    },
+    "AADGroupObjectId": {
+      "value": "<see step 4>"
+    },
+    "vaultSku": {
+      "value": "Standard"
+    },
+    "ASdeviceRegistrationObjectId": {
+      "value": "<see step 2>"
+    },
+    "enabledForDeployment": {
+      "value": true
+    },
+    "enabledForTemplateDeployment": {
+      "value": true
+    },
+    "enableVaultForVolumeEncryption": {
+      "value": false
+    },
+    "JWTSecretKey": {
+      "value": "Example of a KeyVault Secret Super JWT Secret"
+    },
+    "AADdmaURI": {
+      "value": "Example of a KeyVault SecretSomeUri"
+    },
+    "AADInstance": {
+      "value": "Example of a KeyVault Secret SomeInstance"
+    }
+  }
+}
